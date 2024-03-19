@@ -225,7 +225,6 @@ export async function runTest(
 
 // as of vscode 1.85 ANSI is not fully supported
 const COMMON_ARGS = [
-  "--no-color",
   "--formatter",
   "ElixirLS.DebugAdapter.ExUnitFormatter",
 ];
